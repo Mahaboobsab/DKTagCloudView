@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DF83528C2A86750811068D9C54C27B2 /* DKTagCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = C300287CB141A45BBB63D48102792C24 /* DKTagCloudView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61D8E1E0030F52372D4E510260B8DD96 /* DKTagCloudView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D45BE3A8DF70EFECE7BA1F30291216 /* DKTagCloudView-dummy.m */; };
+		6A1F74A28960C50AF310875957AC4899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		6F73ECAFF14F30BD122A7426937F61B1 /* Pods-DKTagCloudViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3011216BB7A387DC74E835504DF96A3A /* Pods-DKTagCloudViewUITests-dummy.m */; };
+		7F2FE91A78B622C1EF0351729AAE6722 /* DKTagCloudView.h in Headers */ = {isa = PBXBuildFile; fileRef = 338E2E5364CAB9DA0F9E32E896B3A073 /* DKTagCloudView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA0972F8D566C7F4B58B8CD643C286E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		924757159BF9BF41A92DD139362BD6A2 /* Pods-DKTagCloudView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C845F3C150AF12A8CC16A401833AD /* Pods-DKTagCloudView-dummy.m */; };
+		AB221D605506912B27555C6257C67162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		F0CF3CD8A24D25EF7F37B1A792909758 /* Pods-DKTagCloudViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E0DF8B17DB9CA8D3864F905EC75712 /* Pods-DKTagCloudViewTests-dummy.m */; };
+		F1C52562966D45348771FA169BE9C689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		FBB230FB0B44DBBF6852099B032B489E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3C08424FA730024B7A5819CB8953B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6FDA8293578F005FD0D0A57B14FFC8;
+			remoteInfo = DKTagCloudView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1912C4B1FD824C7A22198A291C41E926 /* Pods-DKTagCloudViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKTagCloudViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		3011216BB7A387DC74E835504DF96A3A /* Pods-DKTagCloudViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKTagCloudViewUITests-dummy.m"; sourceTree = "<group>"; };
+		338E2E5364CAB9DA0F9E32E896B3A073 /* DKTagCloudView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DKTagCloudView.h; path = DKTagCloudView/DKTagCloudView.h; sourceTree = "<group>"; };
+		35A1818A762EDA82A1A632B9EAB4CB92 /* libPods-DKTagCloudViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKTagCloudViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7278F04B6D2C36C886C00C6AFACC98 /* Pods-DKTagCloudViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKTagCloudViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C484EE65F775A68941880EA35C4EA78 /* Pods-DKTagCloudViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKTagCloudViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D80F996A72211DAB0550B1C187AFE21 /* Pods-DKTagCloudViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKTagCloudViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E8B59246F667A488D40E3FC8CD68EC2 /* DKTagCloudView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKTagCloudView.xcconfig; sourceTree = "<group>"; };
+		639F8E3B9DECCE4D9E1F1797DB56160C /* libPods-DKTagCloudView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKTagCloudView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA8F3E7241FE71148B0BF87D7685193 /* DKTagCloudView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKTagCloudView-prefix.pch"; sourceTree = "<group>"; };
+		717F9538997E6430DB1E7D892A35A0CE /* libDKTagCloudView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDKTagCloudView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D45BE3A8DF70EFECE7BA1F30291216 /* DKTagCloudView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKTagCloudView-dummy.m"; sourceTree = "<group>"; };
+		8B8472C4ED962968C827B19110FD3014 /* Pods-DKTagCloudViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKTagCloudViewUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E6830C0BB6CFAC28D7F2817AA935A0 /* Pods-DKTagCloudView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKTagCloudView.debug.xcconfig"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A66C845F3C150AF12A8CC16A401833AD /* Pods-DKTagCloudView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKTagCloudView-dummy.m"; sourceTree = "<group>"; };
+		A7E0DF8B17DB9CA8D3864F905EC75712 /* Pods-DKTagCloudViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKTagCloudViewTests-dummy.m"; sourceTree = "<group>"; };
+		AF161137BF418ECF7716C99BB2A78592 /* Pods-DKTagCloudView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKTagCloudView.release.xcconfig"; sourceTree = "<group>"; };
+		B68A899664C6CC473ED72046B3BCCF0C /* Pods-DKTagCloudView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKTagCloudView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C300287CB141A45BBB63D48102792C24 /* DKTagCloudView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DKTagCloudView.m; path = DKTagCloudView/DKTagCloudView.m; sourceTree = "<group>"; };
+		C499F749AB0C4D66A96BC4D85B041709 /* Pods-DKTagCloudViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKTagCloudViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C82A0355BBF0E4A1E0F1BB2D1C06F8 /* Pods-DKTagCloudViewUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKTagCloudViewUITests-resources.sh"; sourceTree = "<group>"; };
+		CA395CDCB6F6B93819A1E51F3FA5D625 /* Pods-DKTagCloudViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKTagCloudViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB2BF9753A49CA9A6373B9D2C12A1431 /* libPods-DKTagCloudViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKTagCloudViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A65092815F1B2545A07241F77A9035 /* Pods-DKTagCloudView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKTagCloudView-resources.sh"; sourceTree = "<group>"; };
+		E6968ED0B60548B676478DC47C532CC4 /* Pods-DKTagCloudView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKTagCloudView-acknowledgements.plist"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EBC34F39B823D268C08BC3840C17FACA /* Pods-DKTagCloudViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKTagCloudViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4991E29DEE88D12E18FB4E407FDEE7A /* Pods-DKTagCloudView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKTagCloudView-frameworks.sh"; sourceTree = "<group>"; };
+		FD9BB3ECDC6691673EF96A2F8DED1324 /* Pods-DKTagCloudViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKTagCloudViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FED12E6E3AC711C7F3365EA92C295267 /* Pods-DKTagCloudViewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKTagCloudViewTests-resources.sh"; sourceTree = "<group>"; };
+		FEF50CCB4C3F72FE7B897F74C2A9560A /* Pods-DKTagCloudViewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKTagCloudViewTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		532D7830E6A03D1530A7C86B81474CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB230FB0B44DBBF6852099B032B489E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E4B98CAE9D5BF2683944A791469FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C52562966D45348771FA169BE9C689 /* Foundation.framework in Frameworks */,
+				6A1F74A28960C50AF310875957AC4899 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB2D43739667FEB2770B7DFE65FB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA0972F8D566C7F4B58B8CD643C286E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55A3DACCF73678758D939495E93C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB221D605506912B27555C6257C67162 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29809B960CC431D20D2D84CF13C2B5A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717F9538997E6430DB1E7D892A35A0CE /* libDKTagCloudView.a */,
+				639F8E3B9DECCE4D9E1F1797DB56160C /* libPods-DKTagCloudView.a */,
+				CB2BF9753A49CA9A6373B9D2C12A1431 /* libPods-DKTagCloudViewTests.a */,
+				35A1818A762EDA82A1A632B9EAB4CB92 /* libPods-DKTagCloudViewUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54A532A11EC2806E15CBE3A02804045A /* Pods-DKTagCloudView */ = {
+			isa = PBXGroup;
+			children = (
+				B68A899664C6CC473ED72046B3BCCF0C /* Pods-DKTagCloudView-acknowledgements.markdown */,
+				E6968ED0B60548B676478DC47C532CC4 /* Pods-DKTagCloudView-acknowledgements.plist */,
+				A66C845F3C150AF12A8CC16A401833AD /* Pods-DKTagCloudView-dummy.m */,
+				F4991E29DEE88D12E18FB4E407FDEE7A /* Pods-DKTagCloudView-frameworks.sh */,
+				D4A65092815F1B2545A07241F77A9035 /* Pods-DKTagCloudView-resources.sh */,
+				98E6830C0BB6CFAC28D7F2817AA935A0 /* Pods-DKTagCloudView.debug.xcconfig */,
+				AF161137BF418ECF7716C99BB2A78592 /* Pods-DKTagCloudView.release.xcconfig */,
+			);
+			name = "Pods-DKTagCloudView";
+			path = "Target Support Files/Pods-DKTagCloudView";
+			sourceTree = "<group>";
+		};
+		7803C53442603B997534501C4045A646 /* Pods-DKTagCloudViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC34F39B823D268C08BC3840C17FACA /* Pods-DKTagCloudViewTests-acknowledgements.markdown */,
+				4C484EE65F775A68941880EA35C4EA78 /* Pods-DKTagCloudViewTests-acknowledgements.plist */,
+				A7E0DF8B17DB9CA8D3864F905EC75712 /* Pods-DKTagCloudViewTests-dummy.m */,
+				FEF50CCB4C3F72FE7B897F74C2A9560A /* Pods-DKTagCloudViewTests-frameworks.sh */,
+				FED12E6E3AC711C7F3365EA92C295267 /* Pods-DKTagCloudViewTests-resources.sh */,
+				C499F749AB0C4D66A96BC4D85B041709 /* Pods-DKTagCloudViewTests.debug.xcconfig */,
+				1912C4B1FD824C7A22198A291C41E926 /* Pods-DKTagCloudViewTests.release.xcconfig */,
+			);
+			name = "Pods-DKTagCloudViewTests";
+			path = "Target Support Files/Pods-DKTagCloudViewTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				8191DFB7051666337499C98CA2250339 /* Pods */,
+				29809B960CC431D20D2D84CF13C2B5A1 /* Products */,
+				BC3DD480A0810EBEB592368178685BE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		804FF993657514929FEDB81E6D5C3437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8B59246F667A488D40E3FC8CD68EC2 /* DKTagCloudView.xcconfig */,
+				75D45BE3A8DF70EFECE7BA1F30291216 /* DKTagCloudView-dummy.m */,
+				6CA8F3E7241FE71148B0BF87D7685193 /* DKTagCloudView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DKTagCloudView";
+			sourceTree = "<group>";
+		};
+		8191DFB7051666337499C98CA2250339 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88194F0C53120E4A20731B4FED34D8CD /* DKTagCloudView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88194F0C53120E4A20731B4FED34D8CD /* DKTagCloudView */ = {
+			isa = PBXGroup;
+			children = (
+				338E2E5364CAB9DA0F9E32E896B3A073 /* DKTagCloudView.h */,
+				C300287CB141A45BBB63D48102792C24 /* DKTagCloudView.m */,
+				804FF993657514929FEDB81E6D5C3437 /* Support Files */,
+			);
+			path = DKTagCloudView;
+			sourceTree = "<group>";
+		};
+		BC3DD480A0810EBEB592368178685BE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A532A11EC2806E15CBE3A02804045A /* Pods-DKTagCloudView */,
+				7803C53442603B997534501C4045A646 /* Pods-DKTagCloudViewTests */,
+				FAFC2AFAADA4C4EC8AF02F301D07D9F5 /* Pods-DKTagCloudViewUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FAFC2AFAADA4C4EC8AF02F301D07D9F5 /* Pods-DKTagCloudViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD9BB3ECDC6691673EF96A2F8DED1324 /* Pods-DKTagCloudViewUITests-acknowledgements.markdown */,
+				CA395CDCB6F6B93819A1E51F3FA5D625 /* Pods-DKTagCloudViewUITests-acknowledgements.plist */,
+				3011216BB7A387DC74E835504DF96A3A /* Pods-DKTagCloudViewUITests-dummy.m */,
+				8B8472C4ED962968C827B19110FD3014 /* Pods-DKTagCloudViewUITests-frameworks.sh */,
+				C6C82A0355BBF0E4A1E0F1BB2D1C06F8 /* Pods-DKTagCloudViewUITests-resources.sh */,
+				3E7278F04B6D2C36C886C00C6AFACC98 /* Pods-DKTagCloudViewUITests.debug.xcconfig */,
+				4D80F996A72211DAB0550B1C187AFE21 /* Pods-DKTagCloudViewUITests.release.xcconfig */,
+			);
+			name = "Pods-DKTagCloudViewUITests";
+			path = "Target Support Files/Pods-DKTagCloudViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2BAFD420B8543761A4ECFF14B7D1684 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2FE91A78B622C1EF0351729AAE6722 /* DKTagCloudView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84AAA24141231A5780034AA8792188E6 /* Pods-DKTagCloudViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6320F8DD58EDA7A9AF7A2D3061618E10 /* Build configuration list for PBXNativeTarget "Pods-DKTagCloudViewTests" */;
+			buildPhases = (
+				AEA692D976C649C2B50A688F5DF996FF /* Sources */,
+				BAB2D43739667FEB2770B7DFE65FB671 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DKTagCloudViewTests";
+			productName = "Pods-DKTagCloudViewTests";
+			productReference = CB2BF9753A49CA9A6373B9D2C12A1431 /* libPods-DKTagCloudViewTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D7407A09FDDC4504C01C64B5931522E /* Pods-DKTagCloudView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DFD2FCF7FBB4339DBAF4F9A696072F /* Build configuration list for PBXNativeTarget "Pods-DKTagCloudView" */;
+			buildPhases = (
+				B1EBDBED681A802469053551A1923ED6 /* Sources */,
+				532D7830E6A03D1530A7C86B81474CF8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7711F644189B8391EFE6A3685704497F /* PBXTargetDependency */,
+			);
+			name = "Pods-DKTagCloudView";
+			productName = "Pods-DKTagCloudView";
+			productReference = 639F8E3B9DECCE4D9E1F1797DB56160C /* libPods-DKTagCloudView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C94C0A521C097FD915C7A5DA912B247 /* Pods-DKTagCloudViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C76A8D694F6952EDA099E113DB4509F /* Build configuration list for PBXNativeTarget "Pods-DKTagCloudViewUITests" */;
+			buildPhases = (
+				427F05AC15A933901502F641CBC3D6B1 /* Sources */,
+				EC55A3DACCF73678758D939495E93C13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DKTagCloudViewUITests";
+			productName = "Pods-DKTagCloudViewUITests";
+			productReference = 35A1818A762EDA82A1A632B9EAB4CB92 /* libPods-DKTagCloudViewUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED6FDA8293578F005FD0D0A57B14FFC8 /* DKTagCloudView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75AD5FA1910FABB0D12B75334896076 /* Build configuration list for PBXNativeTarget "DKTagCloudView" */;
+			buildPhases = (
+				03C68B4BE24C91E11C87031F747DD086 /* Sources */,
+				77E4B98CAE9D5BF2683944A791469FD8 /* Frameworks */,
+				E2BAFD420B8543761A4ECFF14B7D1684 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKTagCloudView;
+			productName = DKTagCloudView;
+			productReference = 717F9538997E6430DB1E7D892A35A0CE /* libDKTagCloudView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29809B960CC431D20D2D84CF13C2B5A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6FDA8293578F005FD0D0A57B14FFC8 /* DKTagCloudView */,
+				8D7407A09FDDC4504C01C64B5931522E /* Pods-DKTagCloudView */,
+				84AAA24141231A5780034AA8792188E6 /* Pods-DKTagCloudViewTests */,
+				9C94C0A521C097FD915C7A5DA912B247 /* Pods-DKTagCloudViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C68B4BE24C91E11C87031F747DD086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D8E1E0030F52372D4E510260B8DD96 /* DKTagCloudView-dummy.m in Sources */,
+				1DF83528C2A86750811068D9C54C27B2 /* DKTagCloudView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427F05AC15A933901502F641CBC3D6B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F73ECAFF14F30BD122A7426937F61B1 /* Pods-DKTagCloudViewUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA692D976C649C2B50A688F5DF996FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CF3CD8A24D25EF7F37B1A792909758 /* Pods-DKTagCloudViewTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EBDBED681A802469053551A1923ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924757159BF9BF41A92DD139362BD6A2 /* Pods-DKTagCloudView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7711F644189B8391EFE6A3685704497F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKTagCloudView;
+			target = ED6FDA8293578F005FD0D0A57B14FFC8 /* DKTagCloudView */;
+			targetProxy = E3C08424FA730024B7A5819CB8953B8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1342A5B34ACFCBCABB594BAE3A206B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7278F04B6D2C36C886C00C6AFACC98 /* Pods-DKTagCloudViewUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		57EACB923F9AD6C46288C0EDCE8A83FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF161137BF418ECF7716C99BB2A78592 /* Pods-DKTagCloudView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7D60BCF6D67995D06CB405505FEBBC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8B59246F667A488D40E3FC8CD68EC2 /* DKTagCloudView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKTagCloudView/DKTagCloudView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F021924699A5C2586DC5E85E98FFB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D80F996A72211DAB0550B1C187AFE21 /* Pods-DKTagCloudViewUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9ABBFD95072F405775433F2B6734BFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8B59246F667A488D40E3FC8CD68EC2 /* DKTagCloudView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKTagCloudView/DKTagCloudView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5859613DA6C437D0AA1F7FD187CE5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E6830C0BB6CFAC28D7F2817AA935A0 /* Pods-DKTagCloudView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8481C1DEB4BB98BA14B93B00377BFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C499F749AB0C4D66A96BC4D85B041709 /* Pods-DKTagCloudViewTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC02E9C1E34A392DFB01FD3FBA69985B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1912C4B1FD824C7A22198A291C41E926 /* Pods-DKTagCloudViewTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27DFD2FCF7FBB4339DBAF4F9A696072F /* Build configuration list for PBXNativeTarget "Pods-DKTagCloudView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5859613DA6C437D0AA1F7FD187CE5A1 /* Debug */,
+				57EACB923F9AD6C46288C0EDCE8A83FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C76A8D694F6952EDA099E113DB4509F /* Build configuration list for PBXNativeTarget "Pods-DKTagCloudViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1342A5B34ACFCBCABB594BAE3A206B47 /* Debug */,
+				7F021924699A5C2586DC5E85E98FFB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6320F8DD58EDA7A9AF7A2D3061618E10 /* Build configuration list for PBXNativeTarget "Pods-DKTagCloudViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8481C1DEB4BB98BA14B93B00377BFEF /* Debug */,
+				FC02E9C1E34A392DFB01FD3FBA69985B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75AD5FA1910FABB0D12B75334896076 /* Build configuration list for PBXNativeTarget "DKTagCloudView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABBFD95072F405775433F2B6734BFBD /* Debug */,
+				7D60BCF6D67995D06CB405505FEBBC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

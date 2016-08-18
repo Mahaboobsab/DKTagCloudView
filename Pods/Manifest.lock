@@ -1,0 +1,12 @@
+PODS:
+  - DKTagCloudView (1.0.0)
+
+DEPENDENCIES:
+  - DKTagCloudView (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  DKTagCloudView: 6673995f4014eee9313bb40f698d3bae7b44b6c1
+
+PODFILE CHECKSUM: f15f1dcddbd7ee88cd9eaa81ee26bce00307fd3d
+
+COCOAPODS: 1.0.0

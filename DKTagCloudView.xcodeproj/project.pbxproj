@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C56A590EBC3F972EC6F97B6 /* libPods-DKTagCloudView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 624B45A21C71470CDDF39E6C /* libPods-DKTagCloudView.a */; };
+		5214F35D1D65ACD200E6D69E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F35C1D65ACD200E6D69E /* main.m */; };
+		5214F3601D65ACD200E6D69E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F35F1D65ACD200E6D69E /* AppDelegate.m */; };
+		5214F3631D65ACD200E6D69E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F3621D65ACD200E6D69E /* ViewController.m */; };
+		5214F3661D65ACD200E6D69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5214F3641D65ACD200E6D69E /* Main.storyboard */; };
+		5214F3681D65ACD200E6D69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5214F3671D65ACD200E6D69E /* Assets.xcassets */; };
+		5214F36B1D65ACD200E6D69E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5214F3691D65ACD200E6D69E /* LaunchScreen.storyboard */; };
+		5214F3761D65ACD200E6D69E /* DKTagCloudViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F3751D65ACD200E6D69E /* DKTagCloudViewTests.m */; };
+		5214F3811D65ACD200E6D69E /* DKTagCloudViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214F3801D65ACD200E6D69E /* DKTagCloudViewUITests.m */; };
+		52269EC7192A04BB77862BA4 /* libPods-DKTagCloudViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6665701B3FF9D10471937BEB /* libPods-DKTagCloudViewTests.a */; };
+		6C54C7DED46F46984D4C821A /* libPods-DKTagCloudViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E8085DEFC4CAC3BAD35175 /* libPods-DKTagCloudViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5214F3721D65ACD200E6D69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5214F3501D65ACD200E6D69E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5214F3571D65ACD200E6D69E;
+			remoteInfo = DKTagCloudView;
+		};
+		5214F37D1D65ACD200E6D69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5214F3501D65ACD200E6D69E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5214F3571D65ACD200E6D69E;
+			remoteInfo = DKTagCloudView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5214F3581D65ACD200E6D69E /* DKTagCloudView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKTagCloudView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5214F35C1D65ACD200E6D69E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5214F35E1D65ACD200E6D69E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5214F35F1D65ACD200E6D69E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5214F3611D65ACD200E6D69E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5214F3621D65ACD200E6D69E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5214F3651D65ACD200E6D69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5214F3671D65ACD200E6D69E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5214F36A1D65ACD200E6D69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5214F36C1D65ACD200E6D69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5214F3711D65ACD200E6D69E /* DKTagCloudViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKTagCloudViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5214F3751D65ACD200E6D69E /* DKTagCloudViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTagCloudViewTests.m; sourceTree = "<group>"; };
+		5214F3771D65ACD200E6D69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5214F37C1D65ACD200E6D69E /* DKTagCloudViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKTagCloudViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5214F3801D65ACD200E6D69E /* DKTagCloudViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTagCloudViewUITests.m; sourceTree = "<group>"; };
+		5214F3821D65ACD200E6D69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624B45A21C71470CDDF39E6C /* libPods-DKTagCloudView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKTagCloudView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6665701B3FF9D10471937BEB /* libPods-DKTagCloudViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKTagCloudViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E8085DEFC4CAC3BAD35175 /* libPods-DKTagCloudViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKTagCloudViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABE566C7D980C38532E6792 /* Pods-DKTagCloudViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKTagCloudViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKTagCloudViewUITests/Pods-DKTagCloudViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E2DB7AAF24C745955B37735 /* Pods-DKTagCloudView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKTagCloudView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKTagCloudView/Pods-DKTagCloudView.release.xcconfig"; sourceTree = "<group>"; };
+		7F339581A4AD84811D3C703F /* Pods-DKTagCloudView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKTagCloudView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKTagCloudView/Pods-DKTagCloudView.debug.xcconfig"; sourceTree = "<group>"; };
+		957C974D094D899C4BC2DF0D /* Pods-DKTagCloudViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKTagCloudViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKTagCloudViewTests/Pods-DKTagCloudViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6F0397E6B30935246682231 /* Pods-DKTagCloudViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKTagCloudViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DKTagCloudViewUITests/Pods-DKTagCloudViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4787044CE72A99EE6719BC2 /* Pods-DKTagCloudViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKTagCloudViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DKTagCloudViewTests/Pods-DKTagCloudViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5214F3551D65ACD200E6D69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C56A590EBC3F972EC6F97B6 /* libPods-DKTagCloudView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5214F36E1D65ACD200E6D69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52269EC7192A04BB77862BA4 /* libPods-DKTagCloudViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5214F3791D65ACD200E6D69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C54C7DED46F46984D4C821A /* libPods-DKTagCloudViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42395CF804994BD30616CF27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				624B45A21C71470CDDF39E6C /* libPods-DKTagCloudView.a */,
+				6665701B3FF9D10471937BEB /* libPods-DKTagCloudViewTests.a */,
+				68E8085DEFC4CAC3BAD35175 /* libPods-DKTagCloudViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5214F34F1D65ACD200E6D69E = {
+			isa = PBXGroup;
+			children = (
+				5214F35A1D65ACD200E6D69E /* DKTagCloudView */,
+				5214F3741D65ACD200E6D69E /* DKTagCloudViewTests */,
+				5214F37F1D65ACD200E6D69E /* DKTagCloudViewUITests */,
+				5214F3591D65ACD200E6D69E /* Products */,
+				6E85AA58EDAF55899C586C39 /* Pods */,
+				42395CF804994BD30616CF27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5214F3591D65ACD200E6D69E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5214F3581D65ACD200E6D69E /* DKTagCloudView.app */,
+				5214F3711D65ACD200E6D69E /* DKTagCloudViewTests.xctest */,
+				5214F37C1D65ACD200E6D69E /* DKTagCloudViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5214F35A1D65ACD200E6D69E /* DKTagCloudView */ = {
+			isa = PBXGroup;
+			children = (
+				5214F35E1D65ACD200E6D69E /* AppDelegate.h */,
+				5214F35F1D65ACD200E6D69E /* AppDelegate.m */,
+				5214F3611D65ACD200E6D69E /* ViewController.h */,
+				5214F3621D65ACD200E6D69E /* ViewController.m */,
+				5214F3641D65ACD200E6D69E /* Main.storyboard */,
+				5214F3671D65ACD200E6D69E /* Assets.xcassets */,
+				5214F3691D65ACD200E6D69E /* LaunchScreen.storyboard */,
+				5214F36C1D65ACD200E6D69E /* Info.plist */,
+				5214F35B1D65ACD200E6D69E /* Supporting Files */,
+			);
+			path = DKTagCloudView;
+			sourceTree = "<group>";
+		};
+		5214F35B1D65ACD200E6D69E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5214F35C1D65ACD200E6D69E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5214F3741D65ACD200E6D69E /* DKTagCloudViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5214F3751D65ACD200E6D69E /* DKTagCloudViewTests.m */,
+				5214F3771D65ACD200E6D69E /* Info.plist */,
+			);
+			path = DKTagCloudViewTests;
+			sourceTree = "<group>";
+		};
+		5214F37F1D65ACD200E6D69E /* DKTagCloudViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5214F3801D65ACD200E6D69E /* DKTagCloudViewUITests.m */,
+				5214F3821D65ACD200E6D69E /* Info.plist */,
+			);
+			path = DKTagCloudViewUITests;
+			sourceTree = "<group>";
+		};
+		6E85AA58EDAF55899C586C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F339581A4AD84811D3C703F /* Pods-DKTagCloudView.debug.xcconfig */,
+				7E2DB7AAF24C745955B37735 /* Pods-DKTagCloudView.release.xcconfig */,
+				D4787044CE72A99EE6719BC2 /* Pods-DKTagCloudViewTests.debug.xcconfig */,
+				957C974D094D899C4BC2DF0D /* Pods-DKTagCloudViewTests.release.xcconfig */,
+				6ABE566C7D980C38532E6792 /* Pods-DKTagCloudViewUITests.debug.xcconfig */,
+				B6F0397E6B30935246682231 /* Pods-DKTagCloudViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5214F3571D65ACD200E6D69E /* DKTagCloudView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5214F3851D65ACD200E6D69E /* Build configuration list for PBXNativeTarget "DKTagCloudView" */;
+			buildPhases = (
+				A20FADC4C1069DEFDC649EB1 /* 📦 Check Pods Manifest.lock */,
+				5214F3541D65ACD200E6D69E /* Sources */,
+				5214F3551D65ACD200E6D69E /* Frameworks */,
+				5214F3561D65ACD200E6D69E /* Resources */,
+				47932528CF82D1C7B2644D84 /* 📦 Embed Pods Frameworks */,
+				621CCB3C83FFB006A30FEB2F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKTagCloudView;
+			productName = DKTagCloudView;
+			productReference = 5214F3581D65ACD200E6D69E /* DKTagCloudView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5214F3701D65ACD200E6D69E /* DKTagCloudViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5214F3881D65ACD200E6D69E /* Build configuration list for PBXNativeTarget "DKTagCloudViewTests" */;
+			buildPhases = (
+				179510099B8F6A6DA4426E96 /* 📦 Check Pods Manifest.lock */,
+				5214F36D1D65ACD200E6D69E /* Sources */,
+				5214F36E1D65ACD200E6D69E /* Frameworks */,
+				5214F36F1D65ACD200E6D69E /* Resources */,
+				CA7AA842C5EE68129997A176 /* 📦 Embed Pods Frameworks */,
+				FA06AB09D339509A335D8651 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5214F3731D65ACD200E6D69E /* PBXTargetDependency */,
+			);
+			name = DKTagCloudViewTests;
+			productName = DKTagCloudViewTests;
+			productReference = 5214F3711D65ACD200E6D69E /* DKTagCloudViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5214F37B1D65ACD200E6D69E /* DKTagCloudViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5214F38B1D65ACD200E6D69E /* Build configuration list for PBXNativeTarget "DKTagCloudViewUITests" */;
+			buildPhases = (
+				F8C0395CE2F52389104DEB6D /* 📦 Check Pods Manifest.lock */,
+				5214F3781D65ACD200E6D69E /* Sources */,
+				5214F3791D65ACD200E6D69E /* Frameworks */,
+				5214F37A1D65ACD200E6D69E /* Resources */,
+				EF8FBBD1798669EB8A34BD6A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5214F37E1D65ACD200E6D69E /* PBXTargetDependency */,
+			);
+			name = DKTagCloudViewUITests;
+			productName = DKTagCloudViewUITests;
+			productReference = 5214F37C1D65ACD200E6D69E /* DKTagCloudViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5214F3501D65ACD200E6D69E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.NeoRays;
+				TargetAttributes = {
+					5214F3571D65ACD200E6D69E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					5214F3701D65ACD200E6D69E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5214F3571D65ACD200E6D69E;
+					};
+					5214F37B1D65ACD200E6D69E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5214F3571D65ACD200E6D69E;
+					};
+				};
+			};
+			buildConfigurationList = 5214F3531D65ACD200E6D69E /* Build configuration list for PBXProject "DKTagCloudView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5214F34F1D65ACD200E6D69E;
+			productRefGroup = 5214F3591D65ACD200E6D69E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5214F3571D65ACD200E6D69E /* DKTagCloudView */,
+				5214F3701D65ACD200E6D69E /* DKTagCloudViewTests */,
+				5214F37B1D65ACD200E6D69E /* DKTagCloudViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5214F3561D65ACD200E6D69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5214F36B1D65ACD200E6D69E /* LaunchScreen.storyboard in Resources */,
+				5214F3681D65ACD200E6D69E /* Assets.xcassets in Resources */,
+				5214F3661D65ACD200E6D69E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5214F36F1D65ACD200E6D69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5214F37A1D65ACD200E6D69E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179510099B8F6A6DA4426E96 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47932528CF82D1C7B2644D84 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKTagCloudView/Pods-DKTagCloudView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		621CCB3C83FFB006A30FEB2F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKTagCloudView/Pods-DKTagCloudView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20FADC4C1069DEFDC649EB1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7AA842C5EE68129997A176 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKTagCloudViewTests/Pods-DKTagCloudViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8FBBD1798669EB8A34BD6A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKTagCloudViewUITests/Pods-DKTagCloudViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C0395CE2F52389104DEB6D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA06AB09D339509A335D8651 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DKTagCloudViewTests/Pods-DKTagCloudViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5214F3541D65ACD200E6D69E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5214F3631D65ACD200E6D69E /* ViewController.m in Sources */,
+				5214F3601D65ACD200E6D69E /* AppDelegate.m in Sources */,
+				5214F35D1D65ACD200E6D69E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5214F36D1D65ACD200E6D69E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5214F3761D65ACD200E6D69E /* DKTagCloudViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5214F3781D65ACD200E6D69E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5214F3811D65ACD200E6D69E /* DKTagCloudViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5214F3731D65ACD200E6D69E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5214F3571D65ACD200E6D69E /* DKTagCloudView */;
+			targetProxy = 5214F3721D65ACD200E6D69E /* PBXContainerItemProxy */;
+		};
+		5214F37E1D65ACD200E6D69E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5214F3571D65ACD200E6D69E /* DKTagCloudView */;
+			targetProxy = 5214F37D1D65ACD200E6D69E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5214F3641D65ACD200E6D69E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5214F3651D65ACD200E6D69E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5214F3691D65ACD200E6D69E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5214F36A1D65ACD200E6D69E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5214F3831D65ACD200E6D69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5214F3841D65ACD200E6D69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5214F3861D65ACD200E6D69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F339581A4AD84811D3C703F /* Pods-DKTagCloudView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKTagCloudView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.DKTagCloudView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5214F3871D65ACD200E6D69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2DB7AAF24C745955B37735 /* Pods-DKTagCloudView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DKTagCloudView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.DKTagCloudView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5214F3891D65ACD200E6D69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4787044CE72A99EE6719BC2 /* Pods-DKTagCloudViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DKTagCloudViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.DKTagCloudViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKTagCloudView.app/DKTagCloudView";
+			};
+			name = Debug;
+		};
+		5214F38A1D65ACD200E6D69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957C974D094D899C4BC2DF0D /* Pods-DKTagCloudViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DKTagCloudViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.DKTagCloudViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKTagCloudView.app/DKTagCloudView";
+			};
+			name = Release;
+		};
+		5214F38C1D65ACD200E6D69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ABE566C7D980C38532E6792 /* Pods-DKTagCloudViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DKTagCloudViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.DKTagCloudViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DKTagCloudView;
+			};
+			name = Debug;
+		};
+		5214F38D1D65ACD200E6D69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F0397E6B30935246682231 /* Pods-DKTagCloudViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DKTagCloudViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mahaboob.DKTagCloudViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DKTagCloudView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5214F3531D65ACD200E6D69E /* Build configuration list for PBXProject "DKTagCloudView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5214F3831D65ACD200E6D69E /* Debug */,
+				5214F3841D65ACD200E6D69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5214F3851D65ACD200E6D69E /* Build configuration list for PBXNativeTarget "DKTagCloudView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5214F3861D65ACD200E6D69E /* Debug */,
+				5214F3871D65ACD200E6D69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5214F3881D65ACD200E6D69E /* Build configuration list for PBXNativeTarget "DKTagCloudViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5214F3891D65ACD200E6D69E /* Debug */,
+				5214F38A1D65ACD200E6D69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5214F38B1D65ACD200E6D69E /* Build configuration list for PBXNativeTarget "DKTagCloudViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5214F38C1D65ACD200E6D69E /* Debug */,
+				5214F38D1D65ACD200E6D69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5214F3501D65ACD200E6D69E /* Project object */;
+}

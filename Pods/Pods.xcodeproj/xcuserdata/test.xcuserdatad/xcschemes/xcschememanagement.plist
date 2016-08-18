@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DKTagCloudView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DKTagCloudView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DKTagCloudViewTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-DKTagCloudViewUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>84AAA24141231A5780034AA8792188E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D7407A09FDDC4504C01C64B5931522E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C94C0A521C097FD915C7A5DA912B247</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED6FDA8293578F005FD0D0A57B14FFC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
